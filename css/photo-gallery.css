@@ -1,0 +1,66 @@
+﻿.container{
+background-color:#e4e2d5;
+border:1px solid #666666;
+margin:0px;
+padding:5px 30px 5px 30px;
+border-radius:30px;
+position:relative;
+}
+
+.gallery{
+width:300px;
+margin:0px;
+}
+
+.gallery a{
+height:150px;
+width:300px;
+margin-bottom:20px;
+margin-top:20px;
+position:relative;
+display:inline-block;
+}
+
+.gallery a img{
+height:100%;
+width:100%;
+position:absolute;
+display:block;
+border:10px solid #0038ed;
+z-index:1;
+cursor:pointer;
+border-bottom:none;
+border-top:none;
+border-radius:10px 30px 10px 30px;
+
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+
+-webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+-webkit-transition-duration:0.5s;
+-moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+-moz-transition-duration:0.5s;
+-o-transition-property:width, height, top, bottom, left, right, z-index, border;
+-o-transition-duration:0.5s;
+transition-property:width, height, top, bottom, left, right, z-index, border;
+transition-duration:0.5s;
+}
+
+.gallery a:focus img{
+height:200%;
+width:150%;
+display:block;
+border:15px solid #ffffff;
+z-index:24;
+border-radius:10px 30px 10px 30px;
+
+-webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+-webkit-transition-duration:0.5s;
+-moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+-moz-transition-duration:0.5s;
+-o-transition-property:width, height, top, bottom, left, right, z-index, border;
+-o-transition-duration:0.5s;
+transition-property:width, height, top, bottom, left, right, z-index, border;
+transition-duration:0.5s;
+}

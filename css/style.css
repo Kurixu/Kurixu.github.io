@@ -1,0 +1,271 @@
+﻿body{
+font-family:"Lucida Sans Unicode";
+font-size:15px;
+color:black;
+height:100%;
+width:100%;
+margin:0px;
+}
+
+#Header1{
+background-color:#666666;
+height:500px;
+}
+
+#Wrapper{
+background-color:black;
+height:65px;
+}
+
+.line1{
+background-color:#258eff;
+height:10px;
+width:100%;
+}
+
+.line2{
+background-color:black;
+height:65px;
+width:100%;
+}
+
+
+.line3{
+background-color:#c7c7c7;
+height:5px;
+width:100%;
+}
+
+
+.line4{
+background-color:#ffffff;
+height:4px;
+width:100%;
+}
+
+.sfm input{
+padding:6px 12px;
+font-size:12px;
+letter-spacing:1px;
+margin:10px;
+color:black;
+background-color:#f5f5f5;
+}
+
+.sfm .button{
+border:indigo double 5px;
+border-radius:10px;
+}
+
+.sfm .button:hover{
+color:blue;
+transition:color 0.5s;
+}
+
+.MainNav{
+background-color:white;
+border-radius:0px 0px 20px 20px;
+}
+
+.MainNav a:link, .MainNav a:visited{
+color:#6666ff;
+font-size:20px;
+font-weight:bold;
+text-decoration:none;
+text-shadow:0px -1px 0px #666666;
+}
+
+.MainNav a:hover{
+color:white;
+font-size:20px;
+font-weight:bold;
+text-decoration:none;
+text-shadow:0px -1px 0px #666666;
+transition:color 0.5s;
+}
+
+.MainNav:hover{
+background-color:black;
+border-radius:0px 0px 20px 20px;
+transition:background-color 0.5s;
+}
+
+.MainNav:hover a:link, .MainNav:hover a:visited{
+color:white;
+font-size:20px;
+font-weight:bold;
+text-decoration:none;
+text-shadow:0px -1px 0px #666666;
+}
+
+.MainNav:hover a:hover{
+color:white;
+font-size:20px;
+font-weight:bold;
+text-decoration:none;
+text-shadow:0px -1px 0px #666666;
+transition:color 0.5s;
+}
+
+.AMainNav{
+background-color:black;
+border-radius:0px 0px 20px 20px;
+}
+
+.AMainNav a:link, .AMainNav a:visited{
+color:white;
+font-size:20px;
+font-weight:bold;
+text-decoration:none;
+text-shadow:0px -1px 0px #666666;
+}
+
+.AMainNav a:hover{
+color:white;
+font-size:20px;
+font-weight:bold;
+text-decoration:none;
+text-shadow:0px -1px 0px #666666;
+transition:color 0.5s;
+}
+
+.title{
+color:blue;
+font-weight:bold;
+font-size:28px;
+}
+
+.title1{
+color:#0066ff;
+font-weight:bold;
+font-size:24px;
+}
+
+
+.title2{
+color:#0066ff;
+font-weight:bold;
+font-size:20px;
+}
+
+
+.title3{
+color:#0066ff;
+font-weight:bold;
+font-size:15px;
+}
+
+
+.title4{
+color:#0066ff;
+font-weight:bold;
+font-size:14px;
+}
+
+#Content1{
+background-color:#FFFFCC;
+}
+
+#Content2{
+background-color:#ded5bb;
+}
+
+a.global:link, a.global:visited{
+font-weight:bold;
+text-decoration:none;
+color:#333399;
+}
+
+a.global:hover{
+font-weight:bold;
+text-decoration:underline;
+color:#000066;
+transition:color 0.5s;
+}
+
+a.pglobal:link, a.pglobal:visited{
+font-weight:bold;
+text-decoration:none;
+color:#333399;
+font-size:30px;
+}
+
+a.pglobal:hover{
+font-weight:bold;
+text-decoration:underline;
+color:#000066;
+transition:color 0.5s;
+font-size:30px;
+}
+
+
+#Footer{
+background-color:black;
+color:white;
+font-size:12px;
+height:60px;
+width:100%
+}
+
+a.Footer:link, a.Footer:visited{
+font-size:12px;
+text-decoration:none;
+color:#fcf9f0;
+}
+
+a.Footer:hover{
+font-size:12px;
+text-decoration:underline;
+color:#fcf9f0;
+}
+
+.rotate{
+border:double 10px black;
+border-radius:200px;
+}
+
+.rotate:hover{
+-webkit-animation:rotate 3s infinite;
+-moz-animation:rotate 3s infinite;
+}
+
+@-webkit-keyframes rotate{
+0%{transform:rotateY(0deg);}
+50%{transform:rotateY(180deg);}
+100%{transform:rotateY(360deg);}
+}
+
+@-moz-keyframes rotate{
+0%{transform:rotateY(0deg);}
+50%{transform:rotateY(180deg);}
+100%{transform:rotateY(360deg);}
+}
+
+#contact-area{
+width:512px;
+}
+
+#contact-area input, #contact-area textarea{
+width:400px;
+padding:5px;
+margin-bottom:5px;
+}
+
+label{
+float:left;
+text-align:right;
+margin-right:15px;
+width:80px;
+}
+
+#contact-area input.submit-button{
+width:80px;
+float:left;
+margin-left:95px;
+}
+
+
+
+
+
+
